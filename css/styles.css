@@ -1,0 +1,173 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Montserrat";
+text-align: center;
+}
+
+p {
+  color: #8f8f8f
+}
+
+
+h1 {
+  font-family: "Montserrat";
+  line-height: 1.5;
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+h2 {
+  font-family: "Ubuntu";
+  font-weight: bold;
+  line-height: 2rem;
+}
+
+h3 {
+  font-family: "Montserrat" 1.5rem;
+  font-weight: bold;
+}
+
+/* Headings */
+
+#title {
+  height: 90%;
+  background-color: #ff4c68;
+  color: white;
+  font-family: "Montserrat";
+  text-align: left;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar-collapse {
+  margin-left: 40%
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+  font-family: "Montserrat-light";
+}
+
+.download-button {
+  margin: 5% 3% 5% 0
+}
+
+.iphone6 {
+  width: 60%;
+  transform: rotate(25deg);
+  position: relative;
+  /* Equal to rotateZ(45deg) */
+}
+
+/* FEATURES */
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.fas {
+  margin-bottom: 1rem;
+  color: #ef8172;
+}
+
+.fas:hover {
+  color: #ff4c68;
+}
+
+/*Testemonial section*/
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 10px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+}
+
+.prices {
+  padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+  .iphone6 {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    height: auto;
+  }
+}
+
+/* Call to action */
+#cta {
+  background-color: #ff4c68;
+
+}
+
+.cta-text {
+  color: #fff;
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  padding: 7% 15%;
+}
+
+/* Footer Section */
+#footer {
+
+  padding: 7% 15%;
+}
+
+.footericons {
+  margin: 20px 10px;
+}
